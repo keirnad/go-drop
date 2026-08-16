@@ -8,7 +8,7 @@ import (
 
 func QrGen(uri string) {
 	config := qrterminal.Config{
-		Level:     qrterminal.M,
+		Level:     qrterminal.L,
 		Writer:    os.Stdout,
 		BlackChar: qrterminal.WHITE,
 		WhiteChar: qrterminal.BLACK,
